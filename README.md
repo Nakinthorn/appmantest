@@ -5,7 +5,12 @@
 
 
 หรือจะดูผลการทำงานผ่านโค้ด
-ก็ Run Server ก่อนด้วย Command
+ให้ดาวน์โหลดหรือโคลนลงมา
+จากนั้น ใช้ Command
+```
+$ npm install
+```
+แล้วก็ Run Server ก่อนด้วย Command
 ```
 $ npm run server
 ```
