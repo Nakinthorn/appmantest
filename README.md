@@ -1,5 +1,5 @@
 
-## I.  ออกแบบ UI และ Layout สถานะ Success
+## I.  ออกแบบ UI และ Layout สถานะ เสร็จแล้ว
 
 ดูผลลัพธ์ได้ที่ https://appmantest.herokuapp.com/
 
@@ -16,16 +16,27 @@ $ npm run client // open localhost:8080
  
 
 
-## II. UI Component & Service สถานะ Success
+## II. UI Component & Service สถานะ เสร็จแล้ว
 
 ในส่วนนี้จากโจทย์บอกให้แสดงผลดังภาพ
-(โจทย์,ภาพ : https://github.com/thirawutp/appman-exam)
+(โจทย์ : https://github.com/thirawutp/appman-exam)
 
-เลยเข้าใจว่าให้เอา msg ของ response มาแสดงใช่หรือไม่
-ถ้าไม่ได้ status code 200 ก็จะแสดง error msg ตามที่ API ส่งกลับมา
+ผมเข้าใจว่าให้เอา msg ของ response มาแสดง
+คือหากว่า status code ไม่เท่ากับ 200 ก็จะแสดง error msg ตามที่ API ส่งกลับมา
+
+ที่ผมเห็นใน API จะมี
+- email or password can not be empty
+- email or password must be string
+- email or password may be wrong
+
+แต่จากภาพตัวอย่างมันแตกต่างออกไป คือ
+E-mail or password is incorrect
+
+ผมเลยเลือกที่จะแสดงตามผลที่ API ส่งมา
+หากเข้าใจผิดต้องขออภัย
 
 
-## III. JS & Unit Test สถานะ Ambiguous
+## III. JS & Unit Test สถานะ สับสน
 
 ส่วนนี้ผมสงสัยว่าโจทย์จะผิด
 
@@ -43,6 +54,6 @@ $ npm run client // open localhost:8080
 - Logic (15 คะแนน)
 - Code style (10 คะแนน)
 
-เลยคาดว่าจะแก้โจทย์มาไม่หมด เพราะผมคงได้ part นี้เต็มถ้าปล่อยผม test เรื่อยเปื่อย
+เลยคาดว่าน่าจะแก้โจทย์มาไม่หมด เพราะผมคงได้ part นี้เต็มถ้าปล่อยผม test เรื่อยเปื่อย
 
 ขอบคุณครับ
