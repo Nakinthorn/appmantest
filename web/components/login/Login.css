@@ -1,0 +1,100 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.Login-logo-process {
+  animation: Login-logo-spin infinite 3s linear;
+  width: 180px;
+}
+.Login-logo {
+  width: 180px;
+}
+.centered {
+  text-align: center;
+}
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: ghostwhite;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form label {
+  font-family: "Roboto", sans-serif;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  background:ghostwhite;
+  width: 100%;
+  border: 1;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  border-style:solid;
+  font-size: 14px;
+  border-radius: 1rem;
+  border-color:#edeeed;
+}
+.form input:focus { 
+  border-color: #242526;
+  outline: none;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: deepskyblue;
+  width: 50%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.form .forgot a {
+  color: deepskyblue;
+  text-decoration: none;
+  margin: 15px 0 0;
+  font-size: 12px;
+  float: left;
+}
+.form .register a {
+  color: deepskyblue;
+  text-decoration: none;
+  margin: 15px 0 0;
+  font-size: 12px;
+  float: right;
+}
+
+.form .register  a:hover {
+  text-decoration: underline; 
+}
+.form .forgot  a:hover {
+  text-decoration: underline; 
+}
+.form .error{
+  font-family: "Roboto", sans-serif;
+  color:red;
+}
+body {
+  background: #eaeaf1;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+@keyframes Login-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
