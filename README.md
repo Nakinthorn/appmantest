@@ -10,7 +10,7 @@
 $ npm run server
 ```
 จากนั้นก็ Run React Client ด้วย Command
-
+```
 $ npm run client // open localhost:8080
 ```
  
