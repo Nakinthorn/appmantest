@@ -40,6 +40,9 @@ E-mail or password is incorrect
 ผมเลยเลือกที่จะแสดงตามผลที่ API ส่งมา
 หากเข้าใจผิดต้องขออภัย
 
+username : example@appman.co.th
+password : password
+
 
 ## III. JS & Unit Test สถานะ สับสน
 
