@@ -6,15 +6,15 @@
 
 หรือจะดูผลการทำงานผ่านโค้ด
 ให้ดาวน์โหลดหรือโคลนลงมา
-จากนั้น ใช้ Command
+จากนั้น ใช้คำสั่ง
 ```
 $ npm install
 ```
-แล้วก็ Run Server ก่อนด้วย Command
+แล้วก็ Run Server ก่อนด้วยคำสั่ง
 ```
 $ npm run server
 ```
-จากนั้นก็ Run React Client ด้วย Command
+จากนั้นก็ Run React Client ด้วยคำสั่ง
 ```
 $ npm run client // open localhost:8080
 ```
