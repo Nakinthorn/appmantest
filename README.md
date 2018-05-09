@@ -1,7 +1,7 @@
 
 ## I.  ออกแบบ UI และ Layout สถานะ Success
 
-ดูผลลัพธ์ได้ที่ https://dashboard.heroku.com/apps/appmantest
+ดูผลลัพธ์ได้ที่ https://appmantest.herokuapp.com/
 
 
 หรือจะดูผลการทำงานผ่านโค้ด
